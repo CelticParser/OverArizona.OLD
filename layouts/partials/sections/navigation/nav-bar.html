@@ -1,0 +1,40 @@
+<!-- 
+    nav-bar.html 
+    partials/sections/navigation/
+    implements partials/header.html
+-->
+
+<nav class="links">
+<ul>
+
+{{ partial "sections/navigation/nav-links.html" . }}
+
+</ul>
+</nav>
+
+<nav class="main">
+<ul>
+<li id="share-nav" class="share-menu" style="display:none;">
+
+<a href="#share-menu">
+<i class="fas fa-share-alt"></i>
+</a>
+</li>
+
+<li class="search">
+
+<a href="#search">
+<i class="fas fa-search fa-lg"></i>
+</a>
+
+{{ partial "sections/navigation/search-form.html" . }}
+
+</li>
+<li class="menu">
+<a href="#menu">
+<i class="fas fa-bars"></i>
+</a>
+</li>
+
+</ul>
+</nav>

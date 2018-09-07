@@ -1,6 +1,6 @@
 <!-- 
     head.html 
-    partials/
+    partials/sections/head
     implements _default/baseof.html
 -->
 
@@ -8,7 +8,7 @@
 <meta http-equiv="x-ua-compatible" content="IE=9">
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-{{ partal "head-section/css.html" . }}
+{{ partal "sections/head/css.html" . }}
 
 <title>{{if .IsHome}}Home | {{ .Site.Title }}{{else}}{{ .Title }} | {{ .Site.Title }}{{end}}</title>
 <meta name="description" content="{{if .IsHome}}{{ $.Site.Params.description }}{{else}}{{.Description}}{{end}}" />
@@ -18,7 +18,7 @@
 {{ template "_internal/schema.html" . }}
 {{ template "_internal/google_news.html" . }}
 
-{{ partial "head-section/favicon" . }}
+{{ partial "sections/head/favicon" . }}
 
 <!-- TODO: [Schema] Create schema templates. See: overarizona-OLD repo. -->
 <script type="application/ld+json">

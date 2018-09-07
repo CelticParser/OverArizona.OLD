@@ -1,0 +1,17 @@
+<!-- 
+    nav-links.html 
+    partials/sections/navigation/
+    implements partials/nav-bar.html
+               partials/nav-slider.html
+-->
+
+<!-- variables -->
+{{- $nav := .Site.Params.navigation }}
+
+{{- range $nav }}
+<li>
+<a href="{{ .URL | absURL }}{{ .navtitle }}">
+<i class="fas fa-{{ .navicom }} fa-fw fa-sm">&nbsp;</i>{{ .navtitle }}
+</a>
+</li>
+{{- end }}
