@@ -1,8 +1,8 @@
 baseURL       : http://localhost:1313/
+title         : OverArizona
 languageCode  : en-us
-title         : Unstrung Heroes Foundation
 
 params:
 
-  description	  :
+  description	  : A travelogue of people, places &amp; things that make Arizona unique, featuring exclusive aerial imagery, photography and history
   

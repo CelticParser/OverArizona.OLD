@@ -1,6 +1,6 @@
 <!-- 
     head.html 
-    layouts/
+    partials/
     implements _default/baseof.html
 -->
 
@@ -17,6 +17,8 @@
 {{ template "_internal/opengraph.html" . }}
 {{ template "_internal/schema.html" . }}
 {{ template "_internal/google_news.html" . }}
+
+{{ partial "head-section/favicon" . }}
 
 <!-- TODO: [Schema] Create schema templates. See: overarizona-OLD repo. -->
 <script type="application/ld+json">
