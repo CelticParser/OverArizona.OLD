@@ -1,0 +1,7 @@
+baseURL: http://example.org/
+languageCode: "en-us"
+title: OverArizona
+
+params:
+  description: A travelogue of people, places, & things that make Arizona unique. From spectacular landscapes & colorful history, to the fascinating culture & endless adventure.
+  
