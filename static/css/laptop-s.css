@@ -4,14 +4,15 @@
 
   @media (min-width: 64.0rem) {
 
-	/* ------ ELEMENTS ------ */
+	/* ------ SELECTORS ------ */
 	article>footer, main {padding: 3em;}
 
 	aside {padding: 3em 3em 3em 0;}
 	
 	aside>header {padding: 0 0 3em;}
 
-	aside>section {padding: 3em 0;}
+	aside>section,
+	aside>footer {padding: 3em 0;}
 
 	article>header {
 		display: grid;
