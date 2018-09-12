@@ -1,7 +1,6 @@
 <!DOCTYPE HTML>
-<html lange="en-us">
+<html lange="{{ .Site.LanguageCode }}">
 <head>
-	<meta name="generator" content="Hugo 0.47.1" />
 
 	<meta charset="utf-8">
 	<meta http-equiv="x-ua-compatible" content="IE=9">
@@ -24,8 +23,8 @@
 		media="screen and (min-width: 160.0rem)" 
 		href="css/4k.css">
 
-	<title>Home | OverArizona</title>
-	<meta name="description" content="xxx" />
+	<title>{{if .IsHome}}Home | {{ .Site.Title }}{{else}}{{ .Title }} | {{ .Site.Title }}{{end}}</title>
+	<meta name="description" content="{{if .IsHome}}{{ $.Site.Params.description }}{{else}}{{.Description}}{{end}}" />
 
 	<link rel="manifest" href="/manifest.json">
 
@@ -33,7 +32,7 @@
 
 <body>
 	<nav>
-		<h2 class="h4">navigation</h2>
+		<h2 class="h4">{{ .Site.Title }}</h2>
 	</nav>
 	<div id="wrapper">
 		<article>
@@ -57,22 +56,14 @@
 			<header>
 				<img src="https://via.placeholder.com/120x120"></img>
 				<section>
-					<h2 class="h1">Site Name</h2>
-					<p>LOREM IPSUM DOLOR SIT AMET, CONSUL COMMUNE VIM ET. NAM ET REBUM DICUNT ANTIOPAM NOSTER.</p>
+					<h2 class="h1">{{ .Site.Title }}</h2>
+					<p>{{ .Site.Params.description }}</p>
 				</section>
 			</header>
 			<section>
 				<h2>Coming Soon</h2>
 				<article class="cards">
-					<img src="https://via.placeholder.com/350x185"></img>
-					<div>
-						<h1 class="h3">title</h1>
-						<p class="date">december 14, 2018</p>
-					</div>
-				</article>
-				<br>
-				<article class="cards">
-					<img src="https://via.placeholder.com/350x185"></img>
+					<img src="https://via.placeholder.com/700x370"></img>
 					<div>
 						<h1 class="h3">title</h1>
 						<p class="date">december 14, 2018</p>
@@ -82,7 +73,7 @@
 			<section>
 				<h2>Recent Articles</h2>
 				<article class="cards">
-					<img src="https://via.placeholder.com/350x185"></img>
+					<img src="https://via.placeholder.com/700x370"></img>
 					<div>
 						<h1 class="h3">title</h1>
 						<p class="date">december 14, 2018</p>
@@ -90,7 +81,7 @@
 				</article>
 				<br>
 				<article class="cards">
-					<img src="https://via.placeholder.com/350x185"></img>
+					<img src="https://via.placeholder.com/700x370"></img>
 					<div>
 						<h1 class="h3">title</h1>
 						<p class="date">december 14, 2018</p>
