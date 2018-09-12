@@ -6,26 +6,11 @@
 
 <aside>
 
-<header>
-<img src="https://via.placeholder.com/120x120"></img>
-<section>
-<h2 class="h1">{{ .Site.Title }}</h2>
-<p>{{ .Site.Params.description }}</p>
-</section>
-</header>
-
+{{ partial "sections/header-aside.html" . }}
 {{ partial "sections/coming-soon.html" . }}
-
 {{ partial "sections/recent-articles.html" . }}
-
-<section>
-<h2>Categories</h2>
-</section>
-
-<section>
-<h2>About</h2>
-</section>
-
-<footer>Footer</footer>
+{{ partial "sections/categories.html" . }}
+{{ partial "sections/about-aside.html" . }}
+{{ partial "sections/footer-aside.html" . }}
 
 </aside>
