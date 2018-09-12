@@ -11,6 +11,8 @@
 	
 	aside>header {padding: 0 0 3em;}
 
+	aside>svg {}
+
 	aside>section,
 	aside>footer {padding: 3em 0;}
 

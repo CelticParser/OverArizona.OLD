@@ -29,6 +29,8 @@ hr {
 }
 a {
     background-color: transparent;
+    color: inherit;
+    text-decoration: none;
 }
 b, strong {
     font-weight: bolder;
@@ -97,6 +99,9 @@ button:-moz-focusring, [type="button"]:-moz-focusring, [type="reset"]:-moz-focus
 [type="number"]::-webkit-inner-spin-button, [type="number"]::-webkit-outer-spin-button {
     height: auto;
 } */
+ul, li {
+    list-style: none;
+}
 [type="search"] {
     -webkit-appearance: textfield;
     outline-offset: -2px;

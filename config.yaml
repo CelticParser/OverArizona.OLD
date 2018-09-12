@@ -6,4 +6,18 @@ disableHugoGeneratorInject: true
 
 params:
   description: A travelogue of people, places, & things that make Arizona unique. From spectacular landscapes & colorful history, to the fascinating culture & endless adventure.
-  
+
+  # Social media links: Use font class names --------------------------------------------
+  socialmedia:
+  - name: flickr
+    link: 
+  - name: medium
+    link: 
+  - name: linkedin
+    link: 
+  - name: youtube
+    link: 
+  - name: vimeo
+    link: 
+  - name: instagram
+    link: 

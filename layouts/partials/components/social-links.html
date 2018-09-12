@@ -1,0 +1,22 @@
+<!-- 
+    social-links.html 
+    partials/components/
+    implements:
+                partials/sections/header-aside.html
+                partials/sections/footer-aside.html
+-->
+
+<!-- variables -->
+{{- $accounts := .Site.Params.socialmedia }}
+
+<ul>
+
+{{- range $accounts}}
+<li>
+<a href="{{ .link }}">
+<i class="{{ .name }}"></i>
+</a>
+</li>
+{{- end }}
+
+</ul>
