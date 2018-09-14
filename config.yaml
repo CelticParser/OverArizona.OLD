@@ -5,7 +5,9 @@ title         : OverArizona
 disableHugoGeneratorInject: true
 
 params:
-  description: A travelogue of people, places, & things that make Arizona unique. From spectacular landscapes & colorful history, to the fascinating culture & endless adventure.
+  description : A travelogue of people, places, & things that make Arizona unique. From spectacular landscapes & colorful history, to the fascinating culture & endless adventure.
+  logo        : OAZ-logo-120px.png
+  logoalt     : OverArizona logo
 
   # Social media links: Use font class names --------------------------------------------
   socialmedia:

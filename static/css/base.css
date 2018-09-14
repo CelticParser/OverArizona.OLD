@@ -45,7 +45,7 @@ section {
 
 header {grid-area: hd;}
 
-header>img {padding-bottom: 3em;}
+header>figure {padding-bottom: 3em;}
 
 i {
 	color: #888;
