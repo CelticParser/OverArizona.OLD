@@ -1,4 +1,5 @@
 /* ------ SELECTORS ------ */
+a:hover {color: #137ec8;}
 
 article {
 	grid-area: art;
@@ -88,7 +89,11 @@ video {
 .h1 {font-size: 1.25em;}
 .h2 {}
 .h3 {font-size: 1em;}
-.h4 {font-size: 0.75em;}
+
+.h1,
+.h2,
+.h2,
+.h4 {font-weight: 900;}
 
 /* ------ COMPONENTS ------*/
 #article-meta {
