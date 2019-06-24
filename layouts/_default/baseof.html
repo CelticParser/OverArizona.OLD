@@ -8,11 +8,14 @@
 {{ partial "navbar" . }}
 
 <div id="wrapper">
-{{ partial "article.html" . }}
-{{ partial "aside.html" . }}
+
+{{ block "main" . }}
+  {{ partial "article" . }}
+{{ end }}
+
+{{ partial "aside" . }}
+
 </div>
-
-
 
 </body>
 

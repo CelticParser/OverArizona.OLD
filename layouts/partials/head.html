@@ -11,24 +11,30 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,900">
-<link rel="stylesheet" href="css/icomoon.css">
-<link rel="stylesheet" href="css/reset.css">
-<link rel="stylesheet" href="css/base.css">
+<link rel="stylesheet" href="/css/icomoon.css">
+<link rel="stylesheet" href="/css/reset.css">
+<link rel="stylesheet" href="/css/base.css">
 
 <link rel="stylesheet"
     media="screen and (min-width: 48.0rem)" 
-    href="css/tablet.css">
+    href="/css/tablet.css">
 <link rel="stylesheet"
     media="screen and (min-width: 64.0rem)" 
-    href="css/laptop-s.css">
+    href="/css/laptop-s.css">
 <link rel="stylesheet"
     media="screen and (min-width: 90.0rem)" 
-    href="css/laptop-hd.css">
+    href="/css/laptop-hd.css">
 <link rel="stylesheet"
     media="screen and (min-width: 160.0rem)" 
-    href="css/4k.css">
+    href="/css/4k.css">
 
-<title>{{if .IsHome}}Home | {{ .Site.Title }}{{else}}{{ .Title }} | {{ .Site.Title }}{{end}}</title>
+<title>
+    {{if .IsHome}}
+        Home | {{ .Site.Title }}
+    {{else}}
+        {{ .Title }} | {{ .Site.Title }}
+    {{end}}
+</title>
 <meta name="description" content="{{if .IsHome}}{{ $.Site.Params.description }}{{else}}{{.Description}}{{end}}" />
 
 <link rel="manifest" href="/manifest.json">
