@@ -1,0 +1,35 @@
+<!--
+    coming-soon.html
+    post/coming-soon.html
+-->
+
+<!DOCTYPE HTML>
+<html lang="{{ .Site.LanguageCode }}">
+
+{{ partial "head" . }}
+
+<body>
+
+{{ partial "navbar" . }}
+
+<div id="wrapper">
+
+<article class="post">
+
+{{ partial "sections/header-article" .}}
+
+<main>
+{{ .Content }}
+</main>
+
+{{ partial "sections/footer-article" .}}
+
+</article>
+
+{{ partial "aside" . }}
+
+</div>
+
+</body>
+
+</html>
