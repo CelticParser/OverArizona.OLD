@@ -1,15 +1,15 @@
 {
-    "short_name": "OverArizona",
-    "name": "OverArizona",
-    "icons": [
-      {
-        "src":"",
-        "sizes": "",
-        "type": ""
-      }
-    ],
-    "start_url": "",
-    "background_color": "",
-    "Theme_color": "",
-    "display": ""
-  }
+  "short_name": "OverArizona",
+  "name": "OverArizona",
+  "icons": [
+    {
+      "src": "",
+      "sizes": "",
+      "type": ""
+    }
+  ],
+  "start_url": "",
+  "background_color": "",
+  "Theme_color": "",
+  "display": ""
+}

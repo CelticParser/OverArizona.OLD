@@ -1,7 +1,7 @@
 /* ------ SELECTORS ------ */
 a:hover {color: #137ec8;}
 
-/* TODO: Remove unnecessary 'grid-area' for above the fold performance */
+/* TODO: Remove unnessesary 'grid-area' for above the fold performance */
 article {
 	grid-area: art;
 	border: solid 1px rgba(160, 160, 160, 0.3);
@@ -120,3 +120,4 @@ video {
 	margin: 0 auto;
 	padding: 3.4em 0 0;
 }
+

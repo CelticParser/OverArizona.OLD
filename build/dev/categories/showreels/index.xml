@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Showreels on OverArizona</title>
+    <link>http://example.org/categories/showreels/</link>
+    <description>Recent content in Showreels on OverArizona</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 29 May 2018 00:00:00 -0700</lastBuildDate>
+    
+	<atom:link href="http://example.org/categories/showreels/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Drive</title>
+      <link>http://example.org/articles/drive/</link>
+      <pubDate>Tue, 29 May 2018 00:00:00 -0700</pubDate>
+      
+      <guid>http://example.org/articles/drive/</guid>
+      <description>ESCAPE THE COUCH! With so much to see and do in Arizona, you might have a hard time realizing and picking which ones to experience. OverArizona combes through, everything and everywhere, the best, tastiest and most awe-inspiring places you just have to see while here - in Arizona. From grand to small, to amazement and adventure, these must-sees will help you make the most of your life and give reason to escape the couch.</description>
+    </item>
+    
+  </channel>
+</rss>

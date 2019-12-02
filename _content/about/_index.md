@@ -10,7 +10,7 @@ layout      = "about"
 
 OverArizona is an online publication that contains travelogues, artistic photography and video of people, places and things that make Arizona unique - from spectacular landscapes and colorful history, to it's fascinating culture and endless adventure that only Arizona can offer.
 
-The editors at OverArizona strives to bring new, updated, and exciting content that is unique and current, ranging from forgotten stories to cutting-edge video presentations. All media presented here is soley produced by it's members and all shot using pro-sumer drones and cameras so you, the traveler, can get a true view of what Arizona has to offer.
+The editors at OverArizona strives to bring new, updated, and exciting content that is unique and current, ranging from forgotten stories to cutting-edge video presentations. All media presented here is solely produced by it's members and all shot using pro-sumer drones and cameras so you, the traveler, can get a true view of what Arizona has to offer.
 <br>
 ---
 

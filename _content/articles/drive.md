@@ -35,7 +35,7 @@ With so much to see and do in Arizona, you might have a hard time realizing and 
 
 ### COMING SOON
 
-We will be releasing a short story and showreel titled 'Drive' about all the amazing things and adventures in and around Arizona. This will be our cornerstone piece to show what OverArizona is all about so keep checking in and and don't forget to bookmark us - **We promis not to disapoint!**
+We will be releasing a short story and showreel titled 'Drive' about all the amazing things and adventures in and around Arizona. This will be our cornerstone piece to show what OverArizona is all about so keep checking in and and don't forget to bookmark us - **We promise not to disappoint!**
 
 ---
 
@@ -51,7 +51,7 @@ We will be releasing a short story and showreel titled 'Drive' about all the ama
 
 ## Near By
 
-[MENTION SOME PLACES OF INTEREST WITHIN A 30MI RADIUS AND LINK THEM TO THE CORISPONDING ARTICLE - NOTE: IF A PLACE OF INTEREST HAS NOT BEEN WRITTEN ON THIS SITE, OPEN A NEW DRAFT.]
+[MENTION SOME PLACES OF INTEREST WITHIN A 30MI RADIUS AND LINK THEM TO THE CORRESPONDING ARTICLE - NOTE: IF A PLACE OF INTEREST HAS NOT BEEN WRITTEN ON THIS SITE, OPEN A NEW DRAFT.]
 
 ---
 
