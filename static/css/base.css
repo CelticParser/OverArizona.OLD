@@ -1,5 +1,5 @@
 /* ------ SELECTORS ------ */
-a:hover {color: #137ec8;}
+a:hover {color: #aab3b9;}
 
 /* TODO: Remove unnecessary 'grid-area' for above the fold performance */
 article {
@@ -22,6 +22,10 @@ aside {grid-area: sd;}
 aside>header {
 	text-align: center;
 	padding: 3em 1em;
+}
+
+aside>header>section>h2 {
+	padding: 2em 0 1em;
 }
 
 aside,
@@ -54,7 +58,7 @@ i {
 	font-size: .8em;
 }
 
-a>i:hover {color: #000;}
+a>i:hover {color: #aab3b9;}
 
 li {padding: 1em 1em 0;}
 

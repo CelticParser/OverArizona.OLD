@@ -22,15 +22,15 @@ params:
 
   # Social media links: Use font class names --------------------------------------------
   socialmedia:
-  - name: flickr
-    link: 
-  - name: medium
-    link: 
-  - name: linkedin
-    link: 
-  - name: youtube
-    link: 
-  - name: vimeo
-    link: 
-  - name: instagram
-    link: 
+  # - name: flickr
+    # link:
+  # - name: medium
+    # link:
+  - name: flaticon-linkedin
+    link: https://www.linkedin.com/company/overarizona
+  # - name: youtube
+    # link:
+  - name: flaticon-vimeo-letter-logo-in-a-square
+    link:
+  - name: flaticon-instagram-photo-camera-symbol
+    link: "https://www.instagram.com/overarizona/"

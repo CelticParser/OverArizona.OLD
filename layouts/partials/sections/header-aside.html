@@ -1,27 +1,24 @@
-<!-- 
-    header-aside.html 
+<!--
+    header-aside.html
     partials/sections/
     implements partials/aside.html
 -->
 
 <header>
 
-<figure>
-<img src="/img/{{ .Site.Params.logo }}" 
-     alt="{{ .Site.Params.logoalt }}"
-     width="120"
-     height="120">
-</figure>
+    <figure>
+        <img src="/img/{{ .Site.Params.logo }}" alt="{{ .Site.Params.logoalt }}" width="120" height="120">
+    </figure>
 
-<section>
-<h2 class="h1">{{ .Site.Title }}</h2>
-<p>{{ .Site.Params.description }}</p>
-</section>
+    <section>
+        <h2 class="h1">{{ .Site.Title }}</h2>
+        <p>{{ .Site.Params.description }}</p>
+    </section>
 
-<i class="hand-spock"></i>
+    <!-- <i class="hand-spock"></i> -->
 
-<br>
+    <!-- <br> -->
 
-{{ partial "components/social-links.html" .}}
+    {{ partial "components/social-links.html" .}}
 
 </header>
