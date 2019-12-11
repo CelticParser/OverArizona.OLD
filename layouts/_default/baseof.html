@@ -5,17 +5,19 @@
 
 <body>
 
-{{ partial "navbar" . }}
+  {{ partial "navbar" . }}
 
-<div id="wrapper">
+  <div id="wrapper">
 
-{{ block "main" . }}
-  {{ partial "article" . }}
-{{ end }}
+    {{ block "main" . }}
+    {{ range first 1 (where .Site.Pages "Layout" "single") }}
+    {{ .Render "article" }}
+    {{ end }}
+    {{ end }}
 
-{{ partial "aside" . }}
+    {{ partial "aside" . }}
 
-</div>
+  </div>
 
 </body>
 
