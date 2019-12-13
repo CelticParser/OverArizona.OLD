@@ -1,0 +1,32 @@
+<!--
+    featured-img.html
+    partials/components/
+    implements article.html
+-->
+
+<figure>
+
+    <a class="spotlight" href="{{ $.Site.Params.imgCDN }}tr:w-1800/{{ .Params.featured }}.jpg">
+
+        <img class="lazyload" data-sizes="100vw"
+            data-src="{{ $.Site.Params.imgCDN }}tr:w-1800/{{ .Params.featured }}.jpg" sizes="100vw" data-srcset="{{ $.Site.Params.imgCDN }}tr:w-100/{{ .Params.featured }}.jpg 100w,
+                    {{ $.Site.Params.imgCDN }}tr:w-200/{{ .Params.featured }}.jpg 200w,
+                    {{ $.Site.Params.imgCDN }}tr:w-400/{{ .Params.featured }}.jpg 400w,
+                    {{ $.Site.Params.imgCDN }}tr:w-800/{{ .Params.featured }}.jpg 800w,
+                    {{ $.Site.Params.imgCDN }}tr:w-1000/{{ .Params.featured }}.jpg 1000w,
+                    {{ $.Site.Params.imgCDN }}tr:w-1400/{{ .Params.featured }}.jpg 1400w,
+                    {{ $.Site.Params.imgCDN }}tr:w-1800/{{ .Params.featured }}.jpg 1800w"
+            alt="{{ .Params.featuredAlt }}">
+
+    </a>
+
+    <figcaption class="exif">
+        <small>
+            {{ .Params.featuredCamera }} &nbsp;|&nbsp; {{ .Params.featuredLens }}
+            &nbsp;|&nbsp;
+            {{ .Params.featuredExpose }}
+            <br>
+            &copy; {{ .Params.featuredCredit }}
+        </small>
+    </figcaption>
+</figure>

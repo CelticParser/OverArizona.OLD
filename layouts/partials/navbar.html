@@ -4,11 +4,13 @@
     implements _default/baseof.html
 -->
 
-<nav>
+<nav id="navbar">
 
     <div>
         <!-- TODO: If not homepage, list page title -->
-        <p class="h4">{{ .Site.Title }}</p>
+        <p class="h4">
+            <span>&#8285;</span>
+            {{ .Site.Title }}</p>
     </div>
 
     <div>

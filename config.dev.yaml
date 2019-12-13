@@ -20,6 +20,8 @@ params:
   logo        : OAZ-logo-120px.png
   logoalt     : OverArizona logo
 
+  imgCDN      : https://ik.imagekit.io/overarizona/
+
   # Social media links: Use font class names --------------------------------------------
   socialmedia:
   # - name: flickr

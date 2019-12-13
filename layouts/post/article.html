@@ -4,26 +4,12 @@
     implements _default/baseof.html
 -->
 
-<article>
+<article class="spotlight-group">
 
     {{ partial "sections/header-article.html" .}}
 
     <main>
-        <img id="featured-image"
-            src="https://ik.imagekit.io/overarizona/tr:w-1400,f-jpg,pr-true/Saint_Anne_Mission.FP000080_Nik_1_1VUv4aw-n.jpg">
-
-        <figcaption class="exif">
-            <small>
-                SIGMA fp &nbsp;|&nbsp; Sigma Art 35mm f/1.2 DG HSM
-                <br>
-                ISO 100 &nbsp;|&nbsp; f/8 &nbsp;|&nbsp; 1/20 &nbsp;|&nbsp;
-                <a src="">
-                    <i class="flaticon-camping-tent"></i>
-                </a>
-                <br>
-                &copy; Jason Alan Kennedy
-            </small>
-        </figcaption>
+        {{ partial "components/featured-img.html" .}}
 
         {{ .Content }}
         <!-- <video src="#"></video> -->
