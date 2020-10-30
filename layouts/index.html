@@ -1,2 +1,6 @@
 {{ define "main" }}
+TEST INDEX RENDER
+    {{ range first 1 (where .Site.Pages "Layout" "single") }}
+        {{ .Render "posts/article" }}
+    {{ end }}
 {{ end }}
