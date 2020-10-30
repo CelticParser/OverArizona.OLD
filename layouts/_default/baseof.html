@@ -10,9 +10,9 @@
   <div id="wrapper">
 
     {{ block "main" . }}
-    {{ range first 1 (where .Site.Pages "Layout" "single") }}
-    {{ .Render "article" }}
-    {{ end }}
+      {{ range first 1 (where .Site.Pages "Layout" "single") }}
+        {{ .Render "article" }}
+      {{ end }}
     {{ end }}
 
     {{ partial "aside" . }}
