@@ -1,3 +1,14 @@
-{{ define "main" }}
-    TESTING SINGLE RENDER
-{{ end }}
+<article class="spotlight-group">
+
+    {{ partial "sections/header-article.html" .}}
+
+    <main>
+        {{ partial "components/featured-img.html" .}}
+
+        {{ .Content }}
+        <video src="#"></video>
+    </main>
+
+    {{ partial "sections/footer-article.html" .}}
+
+</article>

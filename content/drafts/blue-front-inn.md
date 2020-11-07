@@ -26,7 +26,9 @@ draft           = true
 
 {{< /comment >}}
 
-## Introduction {{< img-post "" "v1527632778/Dance-Hall-Doors-Blue-Fron-Inn.jpg" "Dance Hall Doors at The Blue Front Inn" "right" >}}
+## Introduction 
+
+{{< img-post "" "v1527632778/Dance-Hall-Doors-Blue-Fron-Inn.jpg" "Dance Hall Doors at The Blue Front Inn" "right" >}}
 
 Many years ago, before the current Highway 77 was established, folks traveling through Mammoth had to take Main St. through the heart of town on their way to other destinations like Oracle and Tuscon. The Blue Front Inn was a great place to stop for libations and a spot of dancing. It has been closed for many years, although it still sports the beautiful powder blue paint job marking it as a landmark in this Copper Corridor town.
 

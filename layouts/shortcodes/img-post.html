@@ -49,8 +49,8 @@
     {{ $alt  := $.Scratch.Get "alt" }}
 
     {{ $.Scratch.Set "structType" "shortcode" }}
-    {{ partial "img-path" . }}
-    {{ $path := "https://res.cloudinary.com/overarizona/image/upload/f_auto,w_auto,c_scale,q_jpegmini,dpr_auto" }}
+    {{/*  {{ partial "img-path" . }}  */}}
+    {{ $path := "https://res.cloudinary.com/overarizona/image/upload/f_auto,w_auto,c_scale,q_jpegmini,dpr_auto/" }}
 
     {{ if eq $type "left" }}
         <span class="image left">

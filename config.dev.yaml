@@ -8,7 +8,7 @@ disqusShortname       : ""
 googleAnalytics       : ""
 pluralizeListTitles   : false
 
-contentDir            : "_content"
+contentDir            : "content"
 publishDir            : "build/dev"
 
 enableRobotsTXT       : true
