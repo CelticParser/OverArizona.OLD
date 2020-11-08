@@ -1,0 +1,41 @@
+<!--
+    featured-img.html
+    partials/components/
+    implements article.html
+-->
+
+<figure>
+
+    <picture>
+
+        {{- range (.Page.Resources.Match "featured.jpg") }}
+
+        {{ $resizedxs := .Resize "200x" }}
+        {{ $resizedsm := .Resize "400x" }}
+        {{ $resizedmd := .Resize "800x" }}
+        {{ $resizedlg := .Resize "1200x" }}
+        {{ $resizedxl := .Resize "1600x" }}
+
+        <img
+            src="{{ $resizedmd.RelPermalink }}" alt="{{ .Params.featuredAlt }}" 
+            srcset="{{ $resizedxs.RelPermalink }} 200w, 
+                    {{ $resizedsm.RelPermalink }} 400w, 
+                    {{ $resizedmd.RelPermalink }} 800w,
+                    {{ $resizedlg.RelPermalink }} 1200w,
+                    {{ $resizedxl.RelPermalink }} 1400w"
+            sizes="(max-width:1200px) 100vw,  800px">
+        
+        {{ end }}
+
+    </picture>
+
+    <figcaption class="exif">
+        <small>
+            {{ .Params.featuredCamera }} &nbsp;|&nbsp; {{ .Params.featuredLens }}
+            &nbsp;|&nbsp;
+            {{ .Params.featuredExpose }}
+            <br>
+            &copy; {{ .Params.featuredCredit }}
+        </small>
+    </figcaption>
+</figure>
