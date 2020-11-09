@@ -1,7 +1,7 @@
 /* ------ SELECTORS ------ */
-a:hover {color: #137ec8;}
+a:hover {color: #aab3b9;}
 
-/* TODO: Remove unnessesary 'grid-area' for above the fold performance */
+/* TODO: Remove unnecessary 'grid-area' for above the fold performance */
 article {
 	grid-area: art;
 	border: solid 1px rgba(160, 160, 160, 0.3);
@@ -24,6 +24,10 @@ aside>header {
 	padding: 3em 1em;
 }
 
+aside>header>section>h2 {
+	padding: 2em 0 1em;
+}
+
 aside,
 header,
 nav {
@@ -40,6 +44,19 @@ body {
 	font-family: "Raleway", Helvetica, sans-serif;
 }
 
+figure {
+	margin: 0;
+	width: 100%;
+}
+
+figcaption.exif {
+	color: rgb(212, 212, 212);
+	float: right;
+	font-size: .75em;
+	line-height: 1.25em;
+    text-align: end;
+}
+
 footer,
 section {
 	border-top: solid 1px rgba(160, 160, 160, 0.3);
@@ -54,20 +71,76 @@ i {
 	font-size: .8em;
 }
 
-a>i:hover {color: #000;}
+a>i:hover {color: #aab3b9;}
+
+figure.container {
+	position: relative;
+}
+
+figure.container:hover .overlay {
+  opacity: 1;
+}
+
+figcaption.overlay {
+
+	background-color: rgba(56, 56, 56, 0.86);
+    bottom: 4px;
+    height: 10%;
+	opacity: 0;
+	position: absolute;
+    transition: .5s ease;
+    width: 100%;
+}
+
+img {
+	max-width: 100%;
+}
+
+/* fade image in after load */
+.lazyload,
+.lazyloading {
+	opacity: 0;
+}
+.lazyloaded {
+	opacity: 1;
+	transition: opacity 300ms;
+	/* background: #f7f7f7 url(/img/loader.gif) no-repeat center; */
+}
 
 li {padding: 1em 1em 0;}
 
 nav {
+	display: grid;
 	font-size: 1.125em;
+	height: 100vh;
+	justify-items: center;
 	padding: 0.5em;
 	position: fixed;
+	text-align: center;
 	top: 0px;
+	transition: top 0.3s; /* Transition effect when sliding down (and up) */
 	width: 100%;
 	z-index: 10;
 }
 
-nav>div:nth-of-type(n+2) {display:none;}
+nav>div:nth-of-type(1) {
+	border-bottom: solid 1px rgba(160, 160, 160, 0.3);
+	width: 100vw;
+}
+
+nav>div:nth-of-type(2) {
+	height: 100vh;
+	position: relative;
+	top: 10%;
+}
+
+nav>div:nth-of-type(2)>p {
+	height: 10%;
+}
+
+nav>div:nth-of-type(3) {
+	display: none;
+}
 
 p {
 	font-size: .8em;
@@ -101,7 +174,6 @@ video {
 /* ------ COMPONENTS ------*/
 #article-meta {
 	grid-area: am;
-	padding: 1em 3em 2em 2em;
 }
 
 #article-title {
@@ -120,4 +192,3 @@ video {
 	margin: 0 auto;
 	padding: 3.4em 0 0;
 }
-

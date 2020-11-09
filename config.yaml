@@ -1,6 +1,15 @@
-baseURL       : http://example.org/
+baseURL       : http://overarizona.org/
 languageCode  : "en-us"
 title         : OverArizona
+
+preserveTaxonomyNames : true
+paginate              : 5
+googleAnalytics       : ""
+pluralizeListTitles   : false
+
+contentDir            : "content"
+
+enableRobotsTXT       : true
 
 disableHugoGeneratorInject: true
 
@@ -9,17 +18,19 @@ params:
   logo        : OAZ-logo-120px.png
   logoalt     : OverArizona logo
 
+  imgCDN      : https://ik.imagekit.io/overarizona/
+
   # Social media links: Use font class names --------------------------------------------
   socialmedia:
-  - name: flickr
-    link: 
-  - name: medium
-    link: 
-  - name: linkedin
-    link: 
-  - name: youtube
-    link: 
-  - name: vimeo
-    link: 
-  - name: instagram
-    link: 
+  # - name: flickr
+    # link:
+  # - name: medium
+    # link:
+  - name: flaticon-linkedin
+    link: https://www.linkedin.com/company/overarizona
+  # - name: youtube
+    # link:
+  - name: flaticon-vimeo-letter-logo-in-a-square
+    link:
+  - name: flaticon-instagram-photo-camera-symbol
+    link: "https://www.instagram.com/overarizona/"
